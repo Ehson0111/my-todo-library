@@ -6,6 +6,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{E02DE699-0EDD-4F1A-822B-1D4993047161}</ProjectGuid>
     <OutputType>Exe</OutputType>
+<TargetFramework>net9.0</TargetFramework>
     <RootNamespace>TodoSolution</RootNamespace>
     <AssemblyName>TodoSolution</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>

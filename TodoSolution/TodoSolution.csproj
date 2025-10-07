@@ -8,6 +8,8 @@
     <Nullable>enable</Nullable>
     <Deterministic>true</Deterministic>
     <FileAlignment>512</FileAlignment>
+     <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <GenerateTargetFrameworkAttribute>false</GenerateTargetFrameworkAttribute>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
@@ -25,6 +27,7 @@
     <OutputPath>bin\Release\</OutputPath>
     <DefineConstants>TRACE</DefineConstants>
     <WarningLevel>4</WarningLevel>
+
   </PropertyGroup>
 
   <ItemGroup>

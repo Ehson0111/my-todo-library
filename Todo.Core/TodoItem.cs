@@ -39,7 +39,7 @@ namespace Todo.Core.Tests
             if (string.IsNullOrWhiteSpace(newTitle)) throw new ArgumentException("Title required", nameof(newTitle));
             Title = newTitle.Trim();
 
-        }
+        }///
 
 
 

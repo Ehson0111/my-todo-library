@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Text.Json.Serialization;
 using System.Threading.Tasks;
 
 namespace Todo.Core.Tests
@@ -23,5 +24,21 @@ namespace Todo.Core.Tests
             _items.Where(i => i.Title.ToLower().Contains(substring ?? string.Empty, StringComparison.OrdinalIgnoreCase));
 
         public int Count=> _items.Count;
+
+
+        public void Clear() => _items.Clear ();
+
+        public void Save(string Path) { 
+
+        
+        }
+
+
+        //public void Load(string Path) { 
+        
+        //    //Path.
+        //    var result=JsonConverter.DeserializeObject<FileModel>
+        //}
+
     }
 }

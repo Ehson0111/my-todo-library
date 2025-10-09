@@ -27,19 +27,14 @@ namespace Todo.Core.Tests
         public void MarkUndone() => IsDone = false;
 
 
-        //public void Rename(string newTitle) {
-        //    if (string.IsNullOrEmpty(newTitle))
-        //    {
-
-        //    }
-        //}
+         
 
         public void Rename(string newTitle)
         {
             if (string.IsNullOrWhiteSpace(newTitle)) throw new ArgumentException("Title required", nameof(newTitle));
             Title = newTitle.Trim();
 
-        }///
+        } 
 
 
 

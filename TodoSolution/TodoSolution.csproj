@@ -37,4 +37,6 @@
   <ItemGroup>
     <ProjectReference Include="../Todo.Core/Todo.Core.csproj" />
   </ItemGroup>
+ 
 </Project>
+ 
